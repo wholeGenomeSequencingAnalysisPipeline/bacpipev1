@@ -141,7 +141,4 @@ RUN cpanm Excel::Writer::XLSX
 
 WORKDIR /NGStools/BacPipe
 
-COPY bacpipe.tar.gz bacpipe.tar.gz
-RUN tar xf bacpipe.tar.gz
-
 CMD /NGStools/BacPipe/BacPipe.v1.7.unix.run run
